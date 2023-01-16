@@ -7,7 +7,7 @@ these operators are also called as vertical joins.
    3>intersect-it returns common values
    4>minus-values are in first query those values are not in second query.
    
-   
+select * FRom employees where department_id=100;   
 select employee_id,first_name,salary from employees where rownum between 1 and 10
 union
 select employee_id,firsT_name,salary From employees where rownum between 1 and 5;
